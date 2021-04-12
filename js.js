@@ -9,7 +9,10 @@ form.addEventListener("submit", (e) => {
   e.preventDefault();
   const passValue = document.querySelector(".pass").value;
   if (passValue == password) {
-    fetch(scriptURL, { method: "POST", body: new FormData(form) });
+    fetch(scriptURL, {
+      method: "POST",
+      body: new FormData(form)
+    });
     document.querySelector(".btn").innerHTML = "Checking...";
     setTimeout(function () {
       window.location = websiteLink;

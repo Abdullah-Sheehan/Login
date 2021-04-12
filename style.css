@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+.home {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  font-family: "Oswald", sans-serif;
+  background: #34495e;
+}
+a {
+  color: #12d312;
+  cursor: pointer;
+  text-decoration: underline;
+  font-family: "Oswald", sans-serif;
+}
+.logo {
+  background: url("logo.png");
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 0px 0px 2px #68b146, 0px 0px 8px 7px #1bc437, 8px 8px 15px #6b6c6d,
+    -8px -8px 15px #12d312;
+  margin-bottom: 20px;
+}
+.box {
+  width: 32%;
+  padding: 40px;
+  padding-right: 60px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #191919;
+  text-align: center;
+  border-radius: 24px;
+  margin-top: 150px;
+  font-family: "Oswald", sans-serif;
+}
+h1 {
+  color: #6fec09;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+}
+p {
+  color: #ddd;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+}
+
+p.error {
+  color: red;
+  margin-top: 20px;
+  font-family: "Oswald", sans-serif;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  font-family: "Oswald", sans-serif;
+}
+input:focus {
+  width: 80%;
+  border-color: #2ecc71;
+  box-shadow: 0px 0px 2px #68b146, 0px 0px 8px 7px #1bc437, 8px 8px 15px #6b6c6d,
+    -8px -8px 5px #12d312;
+}
+button[type="submit"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #2ecc71;
+  padding: 14px 10px;
+  width: 120px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  font-family: "Oswald", sans-serif;
+  box-shadow: 0px 0px 2px #68b146, 0px 0px 8px 7px #1bc437, 8px 8px 15px #6b6c6d,
+    -8px -8px -5px #12d312;
+}
+button[type="submit"]:hover {
+  width: 40%;
+  background: #2ecc71;
+  box-shadow: 0px 0px 2px #68b146, 0px 0px 8px 7px #1bc437, 8px 8px 5px #6b6c6d,
+    -8px -8px 5px #12d312;
+}
